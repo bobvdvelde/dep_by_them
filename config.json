@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "RNVDV",
+    "file": "http://jeroen-noordhoek.nl/wp-content/uploads/2014/08/logo36x36.png",
+    "link": ""
+  },
+  "text": {
+    "title": "Department overlap in expert themes",
+    "more": "Gegevens gebaseerd op expers indeling\nRelaties zijn gebaseerd op overeenkomst in themas\nKleuren zijn gebaseerd op een inductieve herkenning van clusters waarbinnen meer wordt samengewerkt dan erbuiten.\n",
+    "intro": "FSW VU departments linked by shared themes of interest"
+  },
+  "legend": {
+    "edgeLabel": "Shared Themes",
+    "colorLabel": "Module membership",
+    "nodeLabel": "Department"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
