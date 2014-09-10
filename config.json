@@ -5,7 +5,7 @@
   "logo": {
     "text": "RNVDV",
     "file": "http://jeroen-noordhoek.nl/wp-content/uploads/2014/08/logo36x36.png",
-    "link": ""
+    "link": "http://bobvdvelde.github.io/FSW_overview/"
   },
   "text": {
     "title": "Department overlap in expert themes",
@@ -26,17 +26,18 @@
     "imageAttribute": false,
     "groupByEdgeDirection": false
   },
-  "sigma": {
+  "sigma": { 
     "graphProperties": {
-      "minEdgeSize": 0.2,
-      "maxNodeSize": 7,
-      "maxEdgeSize": 0.5,
+      "minEdgeSize": 3,
+      "maxNodeSize": 15,
+      "maxEdgeSize": 15,
       "minNodeSize": 1
     },
     "drawingProperties": {
-      "labelThreshold": 10,
+      "labelThreshold": 0,
       "hoverFontStyle": "bold",
       "defaultEdgeType": "curve",
+      "defaultEdgeArrow":"target",
       "defaultLabelColor": "#000",
       "defaultLabelHoverColor": "#fff",
       "defaultLabelSize": 14,
